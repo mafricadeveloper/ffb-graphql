@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  sites(month: String!, year: String!): [Site!]!
+}
+
+type Site {
+  color: String!
+  legendFontColor: String!
+  legendFontSize: String!
+  name: String!
+  production: String!
+}
